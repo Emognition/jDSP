@@ -143,7 +143,8 @@
     <name>JDSP - Digital Signal Processing for Java</name>
     <description>JDSP is a library of signal processing tools aimed at providing functionalities as available in
         scipy-signal package for Python. The goal is to provide easy-to-use APIs for performing complex operation on
-        signals eliminating the necessity of understanding the low-level complexities in the processing pipeline.</description>
+        signals eliminating the necessity of understanding the low-level complexities in the processing pipeline.
+    </description>
     <url>https://github.com/psambit9791/jDSP</url>
 
     <licenses>
@@ -212,11 +213,17 @@
         </dependency>
 
         <dependency>
+            <groupId>com.github.wendykierp</groupId>
+            <artifactId>JTransforms</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.github.psambit9791</groupId>
             <artifactId>wavfile</artifactId>
             <version>0.1</version>
         </dependency>
     </dependencies>
 
-    
+
 </project>
